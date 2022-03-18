@@ -1,0 +1,21 @@
+{
+  "name": "Paste in PAN Change Form",
+  "version": "1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },  
+  "browser_action": {
+    "default_title": "Are you ready? Change PAN Details!"
+  }, 
+  "web_accessible_resources":
+    [
+      "popup.html", 
+      "jquery-1.10.2.js", 
+      "initialise-popup.js"
+    ]
+}
